@@ -182,9 +182,9 @@ nav{
 .bloco{
 
     background-color: #ffffff;
-    height: 90%;
-    width: auto;
-    margin: 1%;
+    height: 204px;
+    width: 575px;
+    margin: 5px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -280,6 +280,18 @@ footer{
 
     }
 
+    h3{
+
+        font-size: 0.5rem;
+
+    }
+
+    p{
+
+        font-size: 0.5rem;
+
+    }
+
     main{
 
         display: block;
@@ -291,6 +303,7 @@ footer{
     nav{
 
         flex-direction: column;
+        margin: 10px 0px 10px 0px;
 
     }
 
@@ -316,6 +329,19 @@ footer{
         height: 30vh;
         
 
+    }
+
+    .linha{
+
+        flex-direction: column;
+        height: auto;
+        width: 95%;
+    }
+
+    .bloco{
+
+        flex-direction: column;
+        width: 90%;
     }
 
 }
