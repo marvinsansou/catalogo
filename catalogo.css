@@ -344,6 +344,12 @@ footer{
         width: 90%;
     }
 
+    .bloco:hover{
+
+        transform: scale(2.00);
+        transition: all 0.3s ease-in-out;
+    }
+
     .img-menu{
 
         width: 30%;
